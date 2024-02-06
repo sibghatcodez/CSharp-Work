@@ -8,12 +8,6 @@ namespace C_Day_13
 {
     internal class Program
     {
-        enum Vars : int
-        {
-            a = 10,
-            b = 20,
-            c = 50
-        }
         enum Col
         {
             RED = ConsoleColor.Red,
@@ -22,13 +16,6 @@ namespace C_Day_13
 
         public static void Main(string[] args)
         {
-            //day 12th
-
-            //int? a = 1;
-            //Console.WriteLine($"-> {a??10}");
-            //Console.WriteLine(((int) Vars.a + (int) Vars.b )/ 2);
-
-
             //Game - Guess The Number.
             Random rand = new Random();
             short numberToGuess = (short)rand.Next(1, 10);
