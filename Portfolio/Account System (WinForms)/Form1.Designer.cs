@@ -31,163 +31,152 @@ namespace C__Day51
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            groupBox1 = new GroupBox();
-            femaleBtn = new RadioButton();
-            maleBtn = new RadioButton();
-            cancelBtn = new Button();
-            signUpBtn = new Button();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            passBtn = new Label();
-            nameBtn = new Label();
-            errorProvider1 = new ErrorProvider(components);
-            errorProvider2 = new ErrorProvider(components);
-            errorProvider3 = new ErrorProvider(components);
-            groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)errorProvider2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)errorProvider3).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.femaleBtn = new System.Windows.Forms.RadioButton();
+            this.maleBtn = new System.Windows.Forms.RadioButton();
+            this.cancelBtn = new System.Windows.Forms.Button();
+            this.signUpBtn = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.passBtn = new System.Windows.Forms.Label();
+            this.nameBtn = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
+            this.SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.AutoSize = true;
-            groupBox1.Controls.Add(femaleBtn);
-            groupBox1.Controls.Add(maleBtn);
-            groupBox1.Controls.Add(cancelBtn);
-            groupBox1.Controls.Add(signUpBtn);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(passBtn);
-            groupBox1.Controls.Add(nameBtn);
-            groupBox1.Location = new Point(136, 64);
-            groupBox1.Margin = new Padding(4, 3, 4, 3);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(4, 3, 4, 3);
-            groupBox1.Size = new Size(537, 301);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Sign Up";
+            this.groupBox1.AutoSize = true;
+            this.groupBox1.Controls.Add(this.femaleBtn);
+            this.groupBox1.Controls.Add(this.maleBtn);
+            this.groupBox1.Controls.Add(this.cancelBtn);
+            this.groupBox1.Controls.Add(this.signUpBtn);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.passBtn);
+            this.groupBox1.Controls.Add(this.nameBtn);
+            this.groupBox1.Location = new System.Drawing.Point(117, 55);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(460, 261);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Sign Up";
             // 
             // femaleBtn
             // 
-            femaleBtn.AutoSize = true;
-            femaleBtn.Location = new Point(375, 114);
-            femaleBtn.Name = "femaleBtn";
-            femaleBtn.Size = new Size(63, 19);
-            femaleBtn.TabIndex = 7;
-            femaleBtn.TabStop = true;
-            femaleBtn.Text = "Female";
-            femaleBtn.UseVisualStyleBackColor = true;
+            this.femaleBtn.AutoSize = true;
+            this.femaleBtn.Location = new System.Drawing.Point(321, 99);
+            this.femaleBtn.Name = "femaleBtn";
+            this.femaleBtn.Size = new System.Drawing.Size(59, 17);
+            this.femaleBtn.TabIndex = 7;
+            this.femaleBtn.TabStop = true;
+            this.femaleBtn.Text = "Female";
+            this.femaleBtn.UseVisualStyleBackColor = true;
             // 
             // maleBtn
             // 
-            maleBtn.AutoSize = true;
-            maleBtn.Location = new Point(375, 71);
-            maleBtn.Name = "maleBtn";
-            maleBtn.Size = new Size(51, 19);
-            maleBtn.TabIndex = 6;
-            maleBtn.TabStop = true;
-            maleBtn.Text = "Male";
-            maleBtn.UseVisualStyleBackColor = true;
+            this.maleBtn.AutoSize = true;
+            this.maleBtn.Location = new System.Drawing.Point(321, 62);
+            this.maleBtn.Name = "maleBtn";
+            this.maleBtn.Size = new System.Drawing.Size(48, 17);
+            this.maleBtn.TabIndex = 6;
+            this.maleBtn.TabStop = true;
+            this.maleBtn.Text = "Male";
+            this.maleBtn.UseVisualStyleBackColor = true;
             // 
             // cancelBtn
             // 
-            cancelBtn.BackColor = Color.Cornsilk;
-            cancelBtn.Font = new Font("Microsoft Sans Serif", 13.25F, FontStyle.Regular, GraphicsUnit.Point);
-            cancelBtn.Location = new Point(8, 238);
-            cancelBtn.Margin = new Padding(4, 3, 4, 3);
-            cancelBtn.Name = "cancelBtn";
-            cancelBtn.Size = new Size(205, 37);
-            cancelBtn.TabIndex = 5;
-            cancelBtn.Text = "Cancel";
-            cancelBtn.UseVisualStyleBackColor = false;
-            cancelBtn.Click += button2_Click;
+            this.cancelBtn.BackColor = System.Drawing.Color.Cornsilk;
+            this.cancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.cancelBtn.Location = new System.Drawing.Point(7, 206);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(176, 32);
+            this.cancelBtn.TabIndex = 5;
+            this.cancelBtn.Text = "Cancel";
+            this.cancelBtn.UseVisualStyleBackColor = false;
             // 
             // signUpBtn
             // 
-            signUpBtn.BackColor = Color.LightBlue;
-            signUpBtn.Font = new Font("Microsoft Sans Serif", 13.25F, FontStyle.Regular, GraphicsUnit.Point);
-            signUpBtn.Location = new Point(270, 233);
-            signUpBtn.Margin = new Padding(4, 3, 4, 3);
-            signUpBtn.Name = "signUpBtn";
-            signUpBtn.Size = new Size(156, 46);
-            signUpBtn.TabIndex = 4;
-            signUpBtn.Text = "Sign Up";
-            signUpBtn.UseVisualStyleBackColor = false;
-            signUpBtn.Click += button1_Click;
+            this.signUpBtn.BackColor = System.Drawing.Color.LightBlue;
+            this.signUpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.signUpBtn.Location = new System.Drawing.Point(231, 202);
+            this.signUpBtn.Name = "signUpBtn";
+            this.signUpBtn.Size = new System.Drawing.Size(134, 40);
+            this.signUpBtn.TabIndex = 4;
+            this.signUpBtn.Text = "Sign Up";
+            this.signUpBtn.UseVisualStyleBackColor = false;
             // 
             // textBox2
             // 
-            textBox2.Font = new Font("Microsoft Sans Serif", 15.25F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox2.Location = new Point(128, 114);
-            textBox2.Margin = new Padding(4, 3, 4, 3);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.PasswordChar = '*';
-            textBox2.Size = new Size(214, 34);
-            textBox2.TabIndex = 3;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Location = new System.Drawing.Point(110, 99);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(184, 30);
+            this.textBox2.TabIndex = 3;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(128, 62);
-            textBox1.Margin = new Padding(4, 3, 4, 3);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(214, 34);
-            textBox1.TabIndex = 2;
+            this.textBox1.Location = new System.Drawing.Point(110, 54);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(184, 30);
+            this.textBox1.TabIndex = 2;
             // 
             // passBtn
             // 
-            passBtn.Font = new Font("Microsoft Sans Serif", 15.25F, FontStyle.Regular, GraphicsUnit.Point);
-            passBtn.Location = new Point(21, 114);
-            passBtn.Margin = new Padding(4, 0, 4, 0);
-            passBtn.Name = "passBtn";
-            passBtn.Size = new Size(148, 39);
-            passBtn.TabIndex = 1;
-            passBtn.Text = "Password:";
+            this.passBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.passBtn.Location = new System.Drawing.Point(18, 99);
+            this.passBtn.Name = "passBtn";
+            this.passBtn.Size = new System.Drawing.Size(127, 34);
+            this.passBtn.TabIndex = 1;
+            this.passBtn.Text = "Password";
             // 
             // nameBtn
             // 
-            nameBtn.Font = new Font("Microsoft Sans Serif", 19.25F, FontStyle.Regular, GraphicsUnit.Point);
-            nameBtn.Location = new Point(21, 62);
-            nameBtn.Margin = new Padding(4, 0, 4, 0);
-            nameBtn.Name = "nameBtn";
-            nameBtn.Size = new Size(99, 39);
-            nameBtn.TabIndex = 0;
-            nameBtn.Text = "Name:";
-            nameBtn.Click += label1_Click_1;
+            this.nameBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.25F);
+            this.nameBtn.Location = new System.Drawing.Point(18, 54);
+            this.nameBtn.Name = "nameBtn";
+            this.nameBtn.Size = new System.Drawing.Size(85, 34);
+            this.nameBtn.TabIndex = 0;
+            this.nameBtn.Text = "Name:";
             // 
             // errorProvider1
             // 
-            errorProvider1.ContainerControl = this;
+            this.errorProvider1.ContainerControl = this;
             // 
             // errorProvider2
             // 
-            errorProvider2.ContainerControl = this;
+            this.errorProvider2.ContainerControl = this;
             // 
             // errorProvider3
             // 
-            errorProvider3.ContainerControl = this;
+            this.errorProvider3.ContainerControl = this;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            AutoSize = true;
-            ClientSize = new Size(710, 383);
-            Controls.Add(groupBox1);
-            Margin = new Padding(4, 3, 4, 3);
-            Name = "Form1";
-            Text = "Form1";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)errorProvider2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)errorProvider3).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(609, 332);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
